@@ -36,10 +36,10 @@ public class UserServiceImplTest extends BaseServiceTest {
     private static final String NON_EXISTENT_USER_SCREEN_NAME = "non-existent";
 
     @Mock
-    PasswordSecurity passwordSecurity;
+    private PasswordSecurity passwordSecurity;
 
     @Mock
-    UserRepository userRepository;
+    private UserRepository userRepository;
 
     private ConfirmationToken validEmailConfirmationToken;
     private ConfirmationToken validPasswordResetConfirmationToken;
